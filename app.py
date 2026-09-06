@@ -132,4 +132,5 @@ if generate_btn:
                 st.markdown(email_content)
 
         except Exception as e:
+        
             st.error(f"Error: {e}")
